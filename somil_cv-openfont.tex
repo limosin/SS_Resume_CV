@@ -1,0 +1,274 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{limos-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+
+
+\newcommand{\qr}[1]{% Create a new command for printing photo
+\begin{textblock}{5}(176,240)  
+\centering
+\fboxsep 0.5pt\fcolorbox{white}{white}%
+{\includegraphics[width=3.5cm,height=3.5cm,keepaspectratio]{#1}}
+\end{textblock}}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+\qr{qr_code_git.png}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Somil}{Singhai}{ \urlstyle{same}
+%\href{http://debarghyadas.com}{debarghyadas.com}|
+%\href{mailto:deedy@fb.com}{deedy@fb.com} 
++917000725690| +919829692323 | \href{mailto:somilsinghai1804@gmail.com}{somilsinghai1804@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\runsubsection{Birla Institute of \\
+               Technology and \\Science, Pilani}\\
+\descript{B.E. in Electrical and \\Electronics}
+\location{2016-20 | Pilani, India}
+\location{ Cum. GPA: 7.0 / 10.0}
+\sectionsep
+
+\runsubsection{School Education}\\
+\descript{ICSE Board}
+\location{90\%  |2014| Jabalpur, India}
+\descript{MP Board}
+\location{88.88\%|2016|Jabalpur, India}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Facebook:// \href{https://facebook.com/somil.singhai.1}{\bf somils} \\
+Git-hub:// \href{https://github.com/limosin}{\bf limosin} \\
+Linked-In://  \href{www.linkedin.com/in/ss1804
+}{\bf somilsinghai} \\
+Twitter://  \href{https://twitter.com/ss18041998}{\bf @ss18041998} \\
+Quora://  \href{https://www.quora.com/Somil-Singhai}{\bf Somil-Singhai}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+\descript{Computer Science}
+Data Mining \\
+Operating Systems \\
+Neural Networks and Fuzzy Logic \\
+Digital Design \\
+Object Oriented Programming \\
+{\footnotesize \textit{\textbf{(Presently Doing) }}} \\
+Microprocessors \& Interfacing \\
+\sectionsep
+
+\descript{Electrical\&Electronics}
+Electrical Machines\\
+Electronic Devices\\
+Microelectronic Circuits\\
+Analog Electronics\\
+Communication Systems\\
+Control Systems\\
+Power Electronics\\
+Power Systems\\
+Signals and Systems\\
+\sectionsep
+
+\descript{Humanities}
+Linguistics\\
+Business Communications\\
+\sectionsep
+
+\subsection{MOOCS}
+%Add Certificate links
+Machine Learning\\
+{\footnotesize \textit{\textbf{(Stanford Universiy) }}} \\
+Deep Learning Specialization\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Rourkela Steel Plant}
+\descript{| Summer Trainee }
+\location{May 2018 - July 2018| Rourkela, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Studied the \textit{SCADA} control system Architecture used by the plant.
+\item Worked on measures to decrease the latency between the power \\substations and the control hub.
+\item Was a part of the team responsible for implementing a hot standby\\ configuration for the data aquisiton server.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Team Robocon, BITS-Pilani}
+\descript{| Designing Subsystem Head }
+\location{Sept 2016 – May 2018 | Pilani, India}
+\begin{tightemize}
+\item Designed and Simulated the various parts of the bot in Solidworks \\and ComSol.
+\item Also came up with a number optimized and robust algorithms for \\controlling the bot's dynamics using the joystick.
+%Associate a link with the ABU Robocon
+\item Participated in the International ABU Robocon at Pune, India for\\ consecutive years(2017 and 2018) securing ranks in top 20 out of \\120 teams from all over India.
+\item Mentored the new recruits of the team and organized various\\
+Robotics workshops.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Photo Voltaic Plant Performance Model}\\
+\descript{Principal Programmer }
+\location{Jan 2019 - Present| Delhi, India}
+\begin{tightemize}
+\item Responsible for building a Performance model for Solar Power Plants.
+\item The Model would allow us to compare the expected output of a solar\\
+power plant with its current output which would help us to find\\
+problems and faulty components in the system. Repository is not\\
+public due to proprietary reasons.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Smart Air Monitoring System}
+\descript{| Researcher}
+\location{Jan 2019 – Present | BITS,Pilani}
+Working with \textbf{\href{https://www.linkedin.com/in/akshat-baranwal-9b99a112a/}{Akshat Baranwal}} to construct a cost effective air quality \\analysis mesh network. Procured funding for the same from the college.
+\sectionsep
+
+\runsubsection{Handwriting Recognition using MxNet}
+\descript{| Researcher}
+\location{Aug 2018 – Dec 2018 | BITS, Pilani}
+%Add mxnet code hyperlink
+Worked with \textbf{\href{https://www.bits-pilani.ac.in/pilani/ankushchandrakant/profile}{Ankush C. Jahagirdar}} to combine Neural Nets, Wavelet Decomposition and Stochastic functions to implement a new architecture \\for time series prediction.
+\sectionsep
+
+\runsubsection{Yes Bank Customer Heatmap}
+\descript{| Researcher}
+\location{Aug 2018 – Dec 2018 | BITS, Pilani}
+Worked with \textbf{\href{https://www.bits-pilani.ac.in/pilani/ankushchandrakant/profile}{Ankush C. Jahagirdar}} to combine Neural Nets, Wavelet Decomposition and Stochastic functions to implement a new architecture \\for time series prediction.
+\sectionsep
+
+\runsubsection{Wavelet Neural Networks}
+\descript{| Researcher}
+\location{Aug 2018 – Dec 2018 | BITS, Pilani}
+%Add hyperlink to WNN word from github link
+Worked with \textbf{\href{https://www.bits-pilani.ac.in/pilani/ankushchandrakant/profile}{Ankush C. Jahagirdar}} to combine Neural Nets, Wavelet Decomposition and Stochastic functions to implement a new architecture \\for time series prediction.
+\sectionsep
+
+\runsubsection{It takes two Neurons to Ride a Bicycle}
+\descript{| Researcher}
+\location{Aug 2018 – Dec 2018 | BITS, Pilani}
+Worked with \textbf{\href{https://www.bits-pilani.ac.in/pilani/ankushchandrakant/profile}{Ankush C. Jahagirdar}} to combine Neural Nets, Wavelet Decomposition and Stochastic functions to implement a new architecture \\for time series prediction.
+\sectionsep
+
+
+%%%%%%%%ENDING%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      PAGE 2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{1\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\begin{tabular}{rll}
+Languages: & Python \textbullet{} Java \textbullet{} R \textbullet{} C \textbullet{} C++ &\\
+Softwares: & IBM SPSS \textbullet{} VREP \textbullet{}  Cadence \textbullet{}ROS \textbullet{} Matlab &\\
+Tools/Frameworks: & Tensorflow \textbullet{} Pytorch \textbullet{} MxNet \textbullet{} keras
+\textbullet{} NumPy \textbullet{} Jupyter\textbullet{} Git \textbullet{} GitHub &\\
+Python Scripting
+\end{tabular}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications} 
+\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{multicols}{2}
+\section{Awards} 
+\begin{tabular}{rll}
+2018	     & Fellow  & IISF-2018 (only 2 students\\
+             &          &shortlisted from the college)\\
+2016	     & Fellow  & ASME International\\
+
+2015     & Stage-1  & Kishor Vagyanik Protsahan Yojna \\
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Miscellaneous
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Miscellaneous}
+\descript{Languages Spoken}
+English \textbullet{}\textbullet{}\textbullet{}\textbullet{} \quad
+Hindi  \textbullet{}\textbullet{}\textbullet{}\textbullet{}\textbullet{}\\
+\sectionsep
+
+\descript{Hobbies}
+Piano \textbullet{} Gaming \textbullet{} Badminton\\
+\sectionsep
+\end{multicols}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{minipage} 
+\end{document}  \documentclass[]{article}
+
+
